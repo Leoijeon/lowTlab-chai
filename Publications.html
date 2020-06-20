@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LOWT Lab</title>
+<link rel="stylesheet" href="./css/head.css" type="text/css">
+<link rel="stylesheet" href="./css/sidebar.css" type="text/css">
+<style>
+    </style>
+</head>
+
+
+<body>
+
+<div style="margin-bottom: 50px; background-color:#497BD8;padding-left: ">
+<div class="header"></div>
+<div class="guidelinebox"></div>
+</div>
+    
+<div class="wrap">
+<div class="" style="">
+  
+   <div class="sidebar">
+	<ul style="text-align: right;font-size: 1.2em; border-right: 2px #000000 groove; margin-right: 80px; padding-right: 20px;">
+	
+<!--	侧边导航栏   -->
+		<li style="margin-bottom:15px;"><a href="#2020">2020</a></li>
+		<li style="margin-bottom:15px;"><a href="#2019">2019</a></li>
+		<li style="margin-bottom:15px;"><a href="#2018">2018</a></li>
+	</ul>
+</div>
+<div style="width: 280px;height: 400px;	 margin: auto 60px auto auto;float: left;"></div>
+<div class="publication" style="width: 800px; margin: auto auto 70px 420px; border-bottom: 4px #000000 groove;">
+
+
+  		<h3 style="font-size: 39px ; border-bottom: 3px #000000 groove;margin-bottom: 0px;">Publications</h3>
+  		<p style="font-size: 25px; margin: 15px auto 40px;color: #1F1F1F"> decription decription decription decription decription decription decription decription</p>
+			<div class="publication-content">
+  <!--		内容卡片   -->
+   				<div class="pub2020"></div>
+   				<div class="pub2019"></div>
+   				<div class="pub2018"></div>
+
+		</div>
+
+</div><div style="clear: both;"></div>
+</div>
+</div>
+ 
+ <div class="sidebar" style="position: fixed;top: 750px;left: 1400px;"><a style="padding: 5px;" href="#">GO TOP</a></div>
+<div class="footer"></div>
+
+
+</body>
+ <script src="js/jquery.min.js"></script>
+    <script>
+		<!--用于加载div模块-->
+    $(function(){
+		$(".header").load("public/header.html");
+		$(".guidelinebox").load("public/guideline.html");
+		$(".pub2020").load("Publications/pub2020.html");
+		$(".pub2019").load("Publications/pub2019.html");
+		$(".pub2018").load("Publications/pub2018.html");
+
+        $(".footer").load("public/footer.html");
+    });
+</script>
+</html>

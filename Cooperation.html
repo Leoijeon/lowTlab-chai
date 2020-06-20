@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cooperation</title>
+<link rel="stylesheet" href="./css/head.css" type="text/css">
+<link rel="stylesheet" href="./css/sidebar.css" type="text/css">
+<link rel="stylesheet" href="./css/card.css" type="text/css">
+
+</head>
+
+
+<body>
+
+<div style="margin-bottom: 50px; background-color:#497BD8;padding-left: ">
+<div class="header"></div>
+<div class="guidelinebox"></div>
+</div>
+
+
+<div class="sidebar" style="position: fixed;top: 750px;left: 1400px;"><a style="padding: 5px;" href="#">GO TOP</a></div>
+ 
+ 
+<div class="wrap" style="">
+ <div>
+ 	<div style="height:auto; margin: 40px auto 80px; width: 1000px;">
+		<div class="coop1"></div>
+		<div class="coop2"></div>
+		<div class="coop3"></div>
+ 	</div>
+ </div> </div>
+ 
+
+<div class="footer"></div>
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function(){
+		$(".header").load("public/header.html");
+		$(".guidelinebox").load("public/guideline.html");
+		$(".coop1").load("cooperation/coop1.html");
+		$(".coop2").load("cooperation/coop2.html");
+        $(".coop3").load("cooperation/coop3.html");
+        $(".footer").load("public/footer.html");
+    });
+</script>
+</html>

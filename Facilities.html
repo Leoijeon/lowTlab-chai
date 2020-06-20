@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LOWT Lab</title>
+<link rel="stylesheet" href="./css/head.css" type="text/css">
+<link rel="stylesheet" href="./css/sidebar.css" type="text/css">
+<link rel="stylesheet" href="./css/card.css" type="text/css">
+<style>
+
+    </style>
+	
+</head>
+
+
+<body>
+
+
+<div style="margin-bottom: 50px; background-color:#497BD8;padding-left: ">
+<div class="header"></div>
+<div class="guidelinebox"></div>
+</div>
+
+ <div class="sidebar" style="position: fixed;top: 750px;left: 1400px;"><a style="padding: 5px;" href="#">GO TOP</a></div>
+
+
+<div class="wrap" style="">
+  
+   <div class="sidebar" style="">
+	<ul style="text-align: right;font-size: 1.2em; border-right: 2px #000000 groove; padding-right: 20px;">
+		<li style="margin-bottom:15px;"><a href="#Materials">Materials Preparation</a></li>
+		<li style="margin-bottom:15px;"><a href="#Measurement">Measurement Equipment</a></li>
+	</ul>
+</div>
+<!--cardwrap-->
+<div style="height:auto; margin: 40px auto 80px 420px; width: 1000px;">
+	<!--	card-title-->
+	<div><h3 id="Materials" style="font-size: 39px ; border-bottom: 3px #000000 groove;">Materials Preparation</h3>
+  					
+		<!--	card-->
+	 	<div class="prp1"></div>
+	 	<div class="prp2"></div>
+	 	<div class="prp3"></div>
+	 	<div class="prp4"></div>
+	 </div>
+  		
+  		
+  		<!--	card-title-->
+	<div><h3 id="Measurement" style="font-size: 39px ; border-bottom: 3px #000000 groove;">Measurement Equipments</h3>
+  					
+		<!--	card-->
+ 		<div class="msr1"></div>
+	 	<div class="msr2"></div>
+	 	<div class="msr3"></div>
+	 	<div class="msr4"></div>
+	</div>	
+	 
+</div>
+
+</div>
+
+
+<div class="footer"></div>
+	
+	
+</body>
+   
+   
+    <script src="js/jquery.min.js"></script>
+    <script>
+    $(function(){
+		$(".header").load("public/header.html");
+		$(".guidelinebox").load("public/guideline.html");
+		$(".prp1").load("facilities/prp1.html");
+		$(".prp2").load("facilities/prp2.html");
+        $(".prp3").load("facilities/prp3.html");
+		$(".prp4").load("facilities/prp4.html");
+		$(".msr1").load("facilities/msr1.html");
+		$(".msr2").load("facilities/msr2.html");
+        $(".msr3").load("facilities/msr3.html");
+		$(".msr4").load("facilities/msr4.html");
+        $(".footer").load("public/footer.html");
+    });
+</script>
+
+</html>
